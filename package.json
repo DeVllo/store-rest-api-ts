@@ -1,0 +1,28 @@
+{
+  "name": "mysql-typescript-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "dev": "nodemon src/index.ts --exec ts-node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/morgan": "^1.9.2",
+    "@types/mysql2": "github:types/mysql2",
+    "D": "^1.0.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "ts-node": "^9.1.1"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.11",
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7",
+    "typescript": "^4.2.4"
+  }
+}
